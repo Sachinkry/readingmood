@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 import axios from 'axios'
 
-const GOOGLE_BOOKS_API_KEY = 'AIzaSyD-jgUM3fUP92oEjYlYPQd0x7J3FZuNHCg'
+const GOOGLE_BOOKS_API_KEY = 'AIzaSyCwDlxPus4QDQwQQzB1cUtTNR0BP3Jga0s'
 
 const SearchBar = () => {
     const playlistRef = useRef([])
