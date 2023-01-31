@@ -1,10 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
-const myLoader = ({src, width, quality}) => {
-    // load images from local folder
-    return `../images/${src}?w=${width}&q=${quality || 75}`
-}
 
 const Navbar = () => {
     return (
